@@ -26,11 +26,11 @@ final class LabClinicasTheme {
       ),
       floatingLabelStyle:
           const TextStyle(color: blueColor, fontWeight: FontWeight.w600),
+      border: _defaultInputBorder,    
       enabledBorder: _defaultInputBorder,
       focusedBorder: _defaultInputBorder,
       errorBorder: _defaultInputBorder.copyWith(
-        borderSide: const BorderSide(color: Colors.red),
-      ),
+          borderSide: const BorderSide(color: Colors.red)),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
@@ -61,7 +61,7 @@ final class LabClinicasTheme {
     fontSize: 24,
     fontWeight: FontWeight.w900,
   );
-  
+
   static const suTitleSmallStyle = TextStyle(
     color: blueColor,
     fontSize: 18,
