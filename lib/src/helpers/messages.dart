@@ -48,7 +48,7 @@ mixin MessageStateMixin {
     _successMessage.value = message;
   }
 
-  void clearAllMaessages(){
+  void clearAllMessages(){
     untracked(() {
       clearError();
       clearInfo();

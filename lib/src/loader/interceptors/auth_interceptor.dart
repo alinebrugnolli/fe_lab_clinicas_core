@@ -10,7 +10,7 @@ final class AuthInterceptor extends Interceptor {
     const authHeaderKey = 'Authorization';
     headers.remove(authHeaderKey);
     
-    if(extra case {'DIO_AUTH_KEY' : true}){
+    if(extra case {'DIO_AUTH-KEY' : true}){
       final sp = await SharedPreferences.getInstance();
       headers.addAll({
         authHeaderKey: 'Bearer ${sp.getString(LocalStorageConstants.accessToken)}'
