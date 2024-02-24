@@ -1,7 +1,7 @@
 # Flutter Experience Lab Clinicas
 
 Este projeto baseia-se no curso de treinamento em Flutter, promovido pela Academia do Flutter e conduzido pelo instrutor Rodrigo Rahman, reconhecido como expert Flutter e Dart pela Google (GDE).
-O projeto aborda a criação de um sistema apara uma clínica de exames, abordando as plataformas Mobile, Desktop e Web.
+O projeto aborda a criação de um sistema para uma clínica de exames, abordando as plataformas Mobile, Desktop e Web.
 
 **- Projetos Interligados:**
 - fe_lab_clinicas_api - arquivo datebase.json.
